@@ -36,7 +36,7 @@ Run the script:
 
 bash
 
-## Copy code
+**Copy code**
   ```bash
   python hash_creator.py
 ```
@@ -48,17 +48,30 @@ The script will display the hashed password using the chosen algorithm.
 
 # Supported Hash Algorithms
 **MD5**
+
 **SHA-1**
+
 **SHA-224**
+
 **SHA-256**
+
 **SHA-384**
+
 **SHA-512**
+
 **SHA-3 (256 bits)**
+
 **RIPEMD-160**
+
 **BLAKE2b**
+
 **BLAKE3**
+
 **CRC32**
+
 **Adler32**
+
 **CityHash (32 bits)**
+
 **MurmurHash (32 bits)**
 
