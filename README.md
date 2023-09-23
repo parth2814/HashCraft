@@ -36,7 +36,7 @@ Run the script:
 
 bash
 
-Copy code
+## Copy code
   ```bash
   python hash_creator.py
 ```
