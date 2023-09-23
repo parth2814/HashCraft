@@ -7,10 +7,6 @@ Provides a descriptive explanation of each hash algorithm.
 Easy-to-use CLI interface for selecting the hash algorithm and input password.
 Displays the hashed password for the chosen hash algorithm.
 
-# Usage:
-Run the script and choose a hash algorithm from the provided options.
-Enter the password you want to hash.
-The script will display the hashed password using the chosen algorithm.
 
 # Installation:
 
