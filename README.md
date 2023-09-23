@@ -47,31 +47,31 @@ Enter the password you want to hash.
 The script will display the hashed password using the chosen algorithm.
 
 # Supported Hash Algorithms
-**MD5**
+1. MD5
 
-**SHA-1**
+2. SHA-1
 
-**SHA-224**
+3. SHA-224
 
-**SHA-256**
+4. SHA-256
 
-**SHA-384**
+5. SHA-384
 
-**SHA-512**
+6. SHA-512
 
-**SHA-3 (256 bits)**
+7. SHA-3 (256 bits)
 
-**RIPEMD-160**
+8. RIPEMD-160
 
-**BLAKE2b**
+9. BLAKE2b
 
-**BLAKE3**
+10. BLAKE3
 
-**CRC32**
+11. CRC32
 
-**Adler32**
+12. Adler32
 
-**CityHash (32 bits)**
+13. CityHash (32 bits)
 
-**MurmurHash (32 bits)**
+14. MurmurHash (32 bits)
 
