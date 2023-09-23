@@ -37,9 +37,9 @@ Run the script:
 bash
 
 Copy code
-
-python hash_creator.py
-
+  ```bash
+  python hash_creator.py
+```
 Choose a hash algorithm from the provided options.
 
 Enter the password you want to hash.
