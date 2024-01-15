@@ -1,11 +1,23 @@
 # HashCraft
 This Python script allows users to generate various hash values using different hash algorithms such as MD5, SHA-1, SHA-256, and more. It provides a simple CLI interface for selecting the desired hash algorithm and input password for hashing.
 
-# Features:
-Supports a variety of hash algorithms including MD5, SHA-1, SHA-256, SHA-3, BLAKE2b, BLAKE3, CRC32, and more.
-Provides a descriptive explanation of each hash algorithm.
-Easy-to-use CLI interface for selecting the hash algorithm and input password.
-Displays the hashed password for the chosen hash algorithm.
+
+## Features:
+
+1. **Hash Generation:**
+    - Supports a variety of hash algorithms including MD5, SHA-1, SHA-256, SHA-3, BLAKE2b, BLAKE3, CRC32, and more.
+    - Provides a descriptive explanation of each hash algorithm.
+    - Easy-to-use CLI interface for selecting the hash algorithm and input password.
+    - Displays the hashed password for the chosen hash algorithm.
+
+2. **Hash Cracking:**
+    - Attempts to reverse hashed passwords using common attack methods such as dictionary attacks and brute-force attacks.
+    - Provides feedback on the progress of the cracking attempt.
+    - Informs users if the password is successfully cracked.
+
+3. **File Input:**
+    - Users can now input passwords from a file for both hashing and hash cracking.
+    - The script supports processing multiple passwords from a file.
 
 
 # Installation:
@@ -36,11 +48,30 @@ bash
   ```bash
   python hash_creator.py
 ```
+
 Choose a hash algorithm from the provided options.
 
 Enter the password you want to hash.
 
 The script will display the hashed password using the chosen algorithm.
+
+# Usage
+Run the script:
+
+bash
+
+**Copy code**
+  ```bash
+  python hash_cracker.py
+```
+
+Choose a hash algorithm from the provided options.
+
+Enter the hash you want to crack.
+
+The script will display the password and hashed password using the chosen algorithm.
+
+
 
 # Supported Hash Algorithms
 1. MD5
